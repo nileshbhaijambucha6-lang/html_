@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      body{
+         margin: 0;
+         font-family: Arial, Helvetica, sans-serif;
+         background-color:#2a1e4d;
+      }
+      nav{
+         background-color: #51347f;
+         padding: 20px;
+         text-align: center;
+      }
+      nav a{
+         color: white;
+         text-decoration: none;
+         margin: 20PX;
+         font-size: 18px;
+      }
+      nav a:hover{
+         color: blue;
+      }
+      .home{
+         text-align: center;
+         padding: 60px;
+         background-color:#150e29 ;
+      }
+      .home h1{
+         font-size: 40px;
+         color: rgb(162, 155, 159);
+      }
+      .home p{
+         font-size: 18px;
+         color:rgb(162, 155, 159);
+      }
+      .home button{
+         padding: 12px 25px;
+         background-color: azure;
+         color: white;
+         border: none;
+         cursor: pointer;
+      }
+      .home button:hover{
+         background-color: purple;
+      }
+      .container{
+         display: flex;
+         justify-content: center;
+         gap: 20px;
+         padding: 40px;
+      }
+      .card{
+         background-color: rgb(41, 4, 41);
+         padding: 25px;
+         width: 200px;
+         text-align: center;
+         border-radius: 10px;
+         box-shadow: 0 0 10px gray;
+      }
+      .card:hover{
+         background-color: #1e1133;
+      }
+      footer{
+         background-color: #2f225d;
+         padding: 15px;
+         text-align: center;
+         color: wheat;
+      }
+   </style>
+</head>
+<body>
+   <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+   </nav>
+   <div class="home">
+      <h1>Welcome to my website!</h1>
+      <p>learn, explore and create something amazing</p>
+      <button>
+         get started
+      </button>
+   </div>
+   <div class="container">
+      <div class="card">
+         <h2>HTML</h2>
+         <p>create the structure of a website.</p>
+      </div>
+      <div class="card">
+         <h2>CSS</h2>
+          <p> make your website beautiful.</p>
+      </div>
+      <div class="card">
+         <h2>Javascript</h2>
+         <p>add functionality ti your website</p>
+      </div>
+   </div>
+   <footer>
+      <p>&#xa9; my website | All Rights Reserved.</p>
+   </footer>
+</body>
+</html>
